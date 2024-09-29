@@ -4,16 +4,17 @@ string parameter and returns the value from the object at the key of the string
 passed in.
 */
 
-// Your code here 
+let variableAsKey = (object, key) => object[key]; // simply pass in the string and use bracket notation to return the desired value. 
 
-// Example:
-// const obj = {
-//   first: "1",
-//   second: 2,
-//   third: "three"
-// }
-// const str = "first";
-// console.log(variableAsKey(obj, str)); //=> "1"
+
+//Example:
+const obj = {
+  first: "1",
+  second: 2,
+  third: "three"
+}
+const str = "first";
+console.log(variableAsKey(obj, str)); //=> "1"
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 

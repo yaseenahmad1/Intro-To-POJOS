@@ -8,7 +8,20 @@ const obj = {};
 
 /******************** DO NOT MODIFY ANY CODE ABOVE THIS LINE *****************/
 
-// Your code here 
+ obj['firstKey'] = 'firstValue';
+//  obj.firstKey = 'firstValue';
+
+ obj['numeric'] = 2; 
+//  obj.numeric = 2; 
+  
+//  obj["boolean"] = false; 
+
+obj.boolean = false; 
+
+// obj["object"] = { hello: "world!" }; 
+obj.object = { hello: "world!" }; 
+
+
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 
